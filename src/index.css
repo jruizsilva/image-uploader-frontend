@@ -1,0 +1,28 @@
+:root {
+  --fuente-notosans: "Noto Sans", sans-serif;
+  --fuente-poppins: "Poppins", sans-serif;
+  --fuente-montserrat: "Montserrat", sans-serif;
+  --background: "#FAFAFB";
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: var(--fuente-poppins);
+  font-weight: 500;
+  background-color: var(--background);
+  height: inherit;
+}
+#root {
+  height: inherit;
+}

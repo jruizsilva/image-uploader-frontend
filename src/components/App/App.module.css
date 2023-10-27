@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+}
+.footer {
+  height: 6vh;
+  text-align: center;
+}
+.footer,
+.footer_user,
+.footer_page {
+  font-size: 14px;
+  color: #a9a9a9;
+  font-family: var(--fuente-montserrat);
+}
+.footer_user {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.footer_page {
+  font-weight: 500;
+}
+.footer_created {
+  font-weight: 600;
+}
+.home {
+  left: 8px;
+  top: 8px;
+  position: fixed;
+}
+.home:hover {
+  cursor: pointer;
+}
