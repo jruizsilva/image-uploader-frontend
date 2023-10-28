@@ -1,15 +1,15 @@
+import axios from 'axios'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Provider } from 'react-redux'
+import { BrowserRouter } from 'react-router-dom'
 import App from './components/App/App'
 import './reset.css'
 import './index.css'
-import { BrowserRouter } from 'react-router-dom'
-import { Provider } from 'react-redux'
 import store from './redux/configureStore'
-import axios from 'axios'
 
 axios.defaults.baseURL =
-  process.env.REACT_APP_API || 'http://localhost:3001'
+  process.env.REACT_APP_API || 'http://localhost:4000'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
