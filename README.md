@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://image-uploader-devchallenges-io.vercel.app">Image Uploader</a></h1>
+<h1 align="center"><a href="https://image-uploader-frontend-jruizsilva.vercel.app">Image Uploader</a></h1>
 
 ## _Overview_
 
